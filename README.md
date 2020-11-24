@@ -1,2 +1,2 @@
-# TutorialJS
-Esercizi di pratica di JavaScript
+#TutorialJS
+Esercizi  di prova su Javascript
