@@ -1,0 +1,31 @@
+<head>
+    <title>Esercizio 2.13</title>
+</head>
+    
+<body style="color:black; font-family:Verdana; ">
+    <h1>Esercizio 2.13</h1>
+
+    <script>
+        let n = prompt("Inserisci un numero")
+        alert( `Hai inserito il numero ${n}, ecco tutti i numeri primi precedenti:`)
+        checkPrime:
+        for (let i=2; i <= n; i++){
+            for (let x=2; x < i; x++){
+                if (i%x == 0) {
+                    continue checkPrime
+                }
+            }
+            alert(i)
+
+        }
+        
+        let input
+        do {
+            input = prompt("Inserisci un numero maggiore di 100")
+            if (input < 100) alert("Ritenta!")
+        } while (input < 100)
+        alert ("Ottimo!")
+               
+    </script>
+
+</body>

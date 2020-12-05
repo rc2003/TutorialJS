@@ -1,0 +1,35 @@
+<head>
+    <title>Esercizio 2.14</title>
+</head>
+    
+<body style="color:red; font-family:Verdana; ">
+    <h1>Esercizio 2.14</h1>
+
+    <script>
+        let a = +prompt("A quanto equivale a?", "0,1,2,3")
+        switch(a){
+            case 0:
+                alert ("a è uguale a 0")
+                break            
+
+            case 1:
+                alert ("a è uguale a 1")
+                break   
+                
+            case 2:
+            case 3:
+                alert ("a è uguale a 2,3")
+                break
+        }
+
+        let browser = prompt("Quale browser stai utilizzando?")
+        
+        if (browser == "Edge" ) alert ("Hai Edge")
+        else if (browser == "Chrome" || browser == "Firefox" 
+                || browser == "Safari" || browser == "Opera"
+                || browser == "chrome" || browser == "firefox" 
+                || browser == "safari" || browser == "opera") alert ("Browser supportato")
+        else alert("Non riconosciamo il tuo browser!")
+    </script>
+
+</body>
